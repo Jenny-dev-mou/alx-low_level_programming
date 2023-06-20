@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-#rint_alphabet - prints the alphabet, in lowercase, followed by a new line
+ *print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
  void print_alphabet(void) 
- {   
+{   
    char ch;   
    ch = 'a';  
    while (ch <= 'z')
