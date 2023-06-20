@@ -16,11 +16,4 @@ while (str[i] != '\0')
 	i++;
 	}
 return (0);
-}#include <stdio.h>
-//*
-/*print putchar*/
-int main(void)
-{
-printf("_putchar\n");
-return (0);
 }
