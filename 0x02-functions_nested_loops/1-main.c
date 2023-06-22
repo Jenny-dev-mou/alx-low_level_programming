@@ -1,4 +1,5 @@
-then  #include "main.h"
+#include "main.h"
+
 /**
  * main - check the code
  *
@@ -6,6 +7,6 @@ then  #include "main.h"
  */
 int main(void)
 {
- print_alphabet();
- return (0);
+    print_alphabet();
+    return (0);
 }
