@@ -9,8 +9,10 @@
  *            
  * Return: Always 0 (Success) 
  */                      
-int main(int argc, char *argv[]_attribute_((unused)))
-{               
-	printf("%d\n", argc - 1);        
-	return (0);             
-}
+int main(int argc, char *argv[])
+	int i;
+	for(i=0;i<argc;i++) 
+				{               
+	printf("%s", argv[i]);        
+	printf("/n")          
+     }
